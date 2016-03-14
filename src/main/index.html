@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="../../style.css">
   </head>
   <body ng-app="ContactsApp" ng-controller="ContactsCtrl">
+    <div id="contact-list">
+      <ul>
+        <li ng-click="changeView('detail')" ng-repeat="contact in contacts">
+        {{contact.name}}
+        </li>
+      </ul>
+
+    </div>
+
+    <div ng-view id="detail">
+    </div>
+
     <script type="text/javascript" src="../../node_modules/angular/angular.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="../detail/detail.js"></script>
