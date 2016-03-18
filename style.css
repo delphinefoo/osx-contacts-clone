@@ -10,6 +10,7 @@
   border-color: lightgray;
   border-width: 1px;
   height: 100vh;
+  padding: 40px;
 }
 
 ul {
@@ -23,7 +24,7 @@ ul {
 
 #main {
   float: right;
-  width: 69%;
+  width: 60%;
   height: 100px;
 }
 
@@ -34,10 +35,17 @@ ul {
 
 #edit {
   right: 50px;
+  padding: 2px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  background-color: white;
 }
 
 #add {
   margin-left: 15px;
+  padding: 0px 10px;
+  border-radius: 6px;
+  background-color: white;
 }
 
 #add-popup {
